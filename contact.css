@@ -1,0 +1,101 @@
+body{
+margin: 0;
+padding: 0;
+width: 100vw;  
+ height: 100vh;  
+background-image: url("contact-image.jpg");
+background-repeat: no-repeat;
+background-size: 100vw 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Raleway', sans-serif;
+}
+
+
+.contact-box{
+     width: 70vw;
+     height: 43vw;
+     background-color: rgba(14, 151, 206, 0.5);
+     border-radius:3vh;
+     display: flex;
+     justify-content:space-evenly;
+     align-items: flex-end;
+     flex-direction:column ;
+     
+     
+}
+
+
+
+
+.name-text{
+     width: 50vw;
+     height: 7vh;
+     background-color: rgb(255, 255, 255);
+     border-radius: 1vh;
+     position: relative;
+     right: 10vh;
+     box-sizing: border-box;
+     padding: 1.5vh;
+     outline: none;
+     border: none;
+
+
+
+}
+
+
+
+
+.submit-form{
+     background-color: rgba(0, 84, 117, 0.89);
+     display: inline;
+     color:rgb(255, 255, 255) ;
+     border-radius: 1vh;
+     padding: 2vh;
+     display: flex;
+     justify-content: center;
+     word-spacing: 0.27vh;
+
+}
+
+.contact-submit-btn{
+text-decoration: none;
+width: 20vw;
+height: 5vh;
+background-color: rgb(0, 96, 185);
+color:rgb(255, 255, 255) ;
+outline: none;
+border: none;
+position: relative;
+right: 57vh;
+border-radius: 3vh;
+font-size: 3vh;
+font-weight: 700;
+display: flex;
+justify-content: center;
+align-items: center;
+word-spacing: 0.45vh;
+transition: all 0.2s linear;
+
+}
+
+
+
+
+
+
+.name-text:hover{
+     border: 1px solid rgba(7, 105, 185, 0.986);
+     
+}
+
+
+
+
+.contact-submit-btn:hover{
+     color: rgb(0, 111, 175);
+     background-color: rgb(255, 255, 255);
+
+}

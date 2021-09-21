@@ -1,0 +1,157 @@
+
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Raleway', sans-serif;
+}
+
+/* navbar and mainpage image styling */
+.navbar-bg-image{
+     width: 100vw;
+     height: 100vh;
+     background-image: url("mainimg.jpg");
+     background-size: 100vw 100vh;
+     display: flex;;
+    justify-content: center;
+}
+/* navbar styling (use minimum margin and padding) */
+
+.navbar{
+width: 99vw;
+height: 11vh;
+background-color: rgba(8, 91, 112, 0.521);
+display: flex;
+justify-content:space-evenly;
+align-items: center;
+}
+
+
+/* navbar list tyle styiling becuse this a li tag */
+
+.navbar-btn-li{
+     list-style: none;
+}
+
+/* navbar button styling (use minimu margin and pading) */
+.navbar-btn{
+     width: 12vw;
+     height: 6vh;
+     text-decoration: none;
+     background-color:rgb(255, 255, 255);
+     color: rgb(46, 0, 78);
+     display: inline-block;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     box-sizing: border-box;
+     border-radius: 3vh;
+     font-size:22px ;
+     transition: all 0.2s linear;
+}
+.navbar-btn:hover{
+     background-color: rgba(9, 110, 156, 0.363);
+     color: rgb(255, 255, 255);
+     border:solid 1px rgb(255, 255, 255);
+   
+     
+     
+}
+.navbar-btn:active{
+     background-color:rgba(4, 61, 75, 0.61);
+     color: rgb(255, 255, 255);
+     
+     
+}
+
+
+
+
+/* search bar styling */
+
+.search-box{
+     width: 20vw;
+     height: 6vh ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 3vh;
+     
+}
+#search-bar{
+     
+     width: 15vw;
+     height: 3vh ;
+     border:none;
+     outline: none;
+     display: flex;
+   
+     justify-content: center;
+     
+     
+}
+.search-logo{
+     display: inline-block;
+     width:3vw;
+     height: 4vh;
+     border-radius: 0vh 3vh 3vh 0vh;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     border-left: 1px solid rgb(8, 7, 7);
+     
+     
+}
+
+
+.search-logo:active{
+     
+     
+     background-color: rgba(8, 91, 112, 0.521);
+
+
+
+
+
+}
+
+
+#home-logo-pre{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#about-logo-pre{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ 
+}
+#contact-logo-pre{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+#login-logo-pre{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#login-img{
+transition: all 0.3s linear;
+}
+
+
+
+#login-logo-pre:hover > #login-img{
+padding-left: 2vh;
+}
+
+
